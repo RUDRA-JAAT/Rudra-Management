@@ -3,7 +3,7 @@ from datetime import datetime
 
 from sqlalchemy import BigInteger, Boolean, Column, DateTime, UnicodeText
 
-from Database.sql import BASE, SESSION
+from Mikobot.Database.sql import BASE, SESSION
 
 
 class AFK(BASE):

@@ -13,8 +13,8 @@ from telegram.ext import (
 )
 from telegram.helpers import mention_html
 
-from Database.sql import antiflood_sql as sql
-from Database.sql.approve_sql import is_approved
+from Mikobot.Database.sql import antiflood_sql as sql
+from Mikobot.Database.sql.approve_sql import is_approved
 from Mikobot import dispatcher, function
 from Mikobot.plugins.connection import connected
 from Mikobot.plugins.helper_funcs.alternate import send_message

@@ -8,8 +8,8 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, ContextTypes, MessageHandler, filters
 from telegram.helpers import mention_html
 
-import Database.sql.blacklist_sql as sql
-from Database.sql.approve_sql import is_approved
+import Mikobot.Database.sql.blacklist_sql as sql
+from Mikobot.Database.sql.approve_sql import is_approved
 from Mikobot import LOGGER, dispatcher, function
 from Mikobot.plugins.connection import connected
 from Mikobot.plugins.disable import DisableAbleCommandHandler

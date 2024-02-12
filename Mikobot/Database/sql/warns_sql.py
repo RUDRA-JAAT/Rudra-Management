@@ -12,7 +12,7 @@ from sqlalchemy import (
 )
 from sqlalchemy.dialects import postgresql
 
-from Database.sql import BASE, SESSION
+from Mikobot.Database.sql import BASE, SESSION
 
 
 class Warns(BASE):

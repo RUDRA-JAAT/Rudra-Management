@@ -36,7 +36,7 @@ from telegram.ext import (
 )
 from telegram.helpers import escape_markdown
 
-import Database.sql.users_sql as sql
+import Mikobot.Database.sql.users_sql as sql
 from Mikobot.startmsg import *
 from Mikobot import (
     BOT_NAME,

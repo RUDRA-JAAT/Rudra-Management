@@ -4,7 +4,7 @@ from typing import Union
 
 from sqlalchemy import BigInteger, Boolean, Column, String, UnicodeText
 
-from Database.sql import BASE, SESSION
+from Mikobot.Database.sql import BASE, SESSION
 
 
 class ChatAccessConnectionSettings(BASE):

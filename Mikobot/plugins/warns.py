@@ -26,8 +26,8 @@ from telegram.ext import (
 )
 from telegram.helpers import mention_html
 
-from Database.sql import warns_sql as sql
-from Database.sql.approve_sql import is_approved
+from Mikobot.Database.sql import warns_sql as sql
+from Mikobot.Database.sql.approve_sql import is_approved
 from Mikobot import dispatcher, function
 from Mikobot.utils.can_restrict import BAN_STICKER
 from Mikobot.plugins.disable import DisableAbleCommandHandler

@@ -17,7 +17,7 @@ from telegram.ext import (
 from telegram.ext import filters as filters_module
 from telegram.helpers import escape_markdown, mention_html
 
-from Database.sql import cust_filters_sql as sql
+from Mikobot.Database.sql import cust_filters_sql as sql
 from Mikobot import DEV_USERS, DRAGONS, LOGGER, dispatcher, function
 from Mikobot.plugins.connection import connected
 from Mikobot.plugins.disable import DisableAbleCommandHandler

@@ -12,8 +12,8 @@ from telegram.error import BadRequest, Forbidden, TelegramError
 from telegram.ext import CommandHandler, ContextTypes, MessageHandler, filters
 from telegram.helpers import escape_markdown
 
-import Database.sql.users_sql as sql
-from Database.sql.users_sql import get_all_users
+import Mikobot.Database.sql.users_sql as sql
+from Mikobot.Database.sql.users_sql import get_all_users
 from Mikobot import DEV_USERS, LOGGER, OWNER_ID, app, dispatcher, function
 
 # <=======================================================================================================>

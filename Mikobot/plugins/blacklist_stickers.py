@@ -7,7 +7,7 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, ContextTypes, MessageHandler, filters
 from telegram.helpers import mention_html, mention_markdown
 
-import Database.sql.blsticker_sql as sql
+import Mikobot.Database.sql.blsticker_sql as sql
 from Mikobot import LOGGER, dispatcher
 from Mikobot.plugins.connection import connected
 from Mikobot.plugins.disable import DisableAbleCommandHandler

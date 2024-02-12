@@ -5,7 +5,7 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, ContextTypes, filters
 from telegram.helpers import escape_markdown
 
-import Database.sql.rules_sql as sql
+import Mikobot.Database.sql.rules_sql as sql
 from Mikobot import dispatcher, function
 from Mikobot.plugins.helper_funcs.chat_status import check_admin
 from Mikobot.plugins.helper_funcs.string_handling import (

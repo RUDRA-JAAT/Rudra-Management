@@ -10,8 +10,8 @@ from telegram.error import BadRequest, Forbidden, TelegramError
 from telegram.ext import CommandHandler, ContextTypes, MessageHandler, filters
 from telegram.helpers import mention_html
 
-import Database.sql.global_bans_sql as sql
-from Database.sql.users_sql import get_user_com_chats
+import Mikobot.Database.sql.global_bans_sql as sql
+from Mikobot.Database.sql.users_sql import get_user_com_chats
 from Mikobot import (
     DEV_USERS,
     DRAGONS,

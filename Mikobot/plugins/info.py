@@ -10,7 +10,7 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, ContextTypes
 from telegram.helpers import mention_html
 
-from Database.sql.approve_sql import is_approved
+from Mikobot.Database.sql.approve_sql import is_approved
 from Mikobot.startmsg import START_IMG
 from Mikobot import DEV_USERS, DRAGONS, INFOPIC, OWNER_ID, function
 from Mikobot.__main__ import STATS, USER_INFO

@@ -3,7 +3,7 @@ import typing
 
 from sqlalchemy import BigInteger, Boolean, Column, String, distinct, func
 
-from Database.sql import BASE, SESSION
+from Mikobot.Database.sql import BASE, SESSION
 
 
 class GroupLogs(BASE):

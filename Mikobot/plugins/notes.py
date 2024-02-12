@@ -16,7 +16,7 @@ from telegram.ext import (
 )
 from telegram.helpers import escape_markdown, mention_markdown
 
-import Database.sql.notes_sql as sql
+import Mikobot.Database.sql.notes_sql as sql
 from Mikobot import DRAGONS, LOGGER, MESSAGE_DUMP, SUPPORT_CHAT, dispatcher, function
 from Mikobot.plugins.disable import DisableAbleCommandHandler
 from Mikobot.plugins.helper_funcs.chat_status import check_admin, connection_status

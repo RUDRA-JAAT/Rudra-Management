@@ -11,7 +11,7 @@ from sqlalchemy import (
     func,
 )
 
-from Database.sql import BASE, SESSION
+from Mikobot.Database.sql import BASE, SESSION
 from Mikobot import dispatcher
 
 

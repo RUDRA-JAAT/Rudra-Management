@@ -20,7 +20,7 @@ from telegram.error import BadRequest, Forbidden, TelegramError
 from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes
 from telegram.helpers import mention_html, mention_markdown
 
-import Database.sql.feds_sql as sql
+import Mikobot.Database.sql.feds_sql as sql
 from Mikobot import (
     DRAGONS,
     EVENT_LOGS,

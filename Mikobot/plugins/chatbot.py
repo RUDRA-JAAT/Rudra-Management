@@ -25,7 +25,7 @@ from telegram.ext import (
 )
 from telegram.helpers import mention_html
 
-import Database.sql.kuki_sql as sql
+import Mikobot.Database.sql.kuki_sql as sql
 from Mikobot import function
 from Mikobot.plugins.log_channel import gloggable
 

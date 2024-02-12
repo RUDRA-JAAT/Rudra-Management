@@ -8,7 +8,7 @@ from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram.ext import ContextTypes, MessageHandler, filters
 
-from Database.sql import afk_sql as sql
+from Mikobot.Database.sql import afk_sql as sql
 from Mikobot import LOGGER, function
 from Mikobot.plugins.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
 from Mikobot.plugins.users import get_user_id

@@ -17,7 +17,7 @@ if is_module_loaded(FILENAME):
     from telegram.ext import CommandHandler, JobQueue
     from telegram.helpers import escape_markdown
 
-    from Database.sql import log_channel_sql as sql
+    from Mikobot.Database.sql import log_channel_sql as sql
     from Mikobot import EVENT_LOGS, LOGGER, dispatcher
     from Mikobot.plugins.helper_funcs.chat_status import check_admin
 

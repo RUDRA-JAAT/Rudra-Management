@@ -20,7 +20,7 @@ FILENAME = __name__.rsplit(".", 1)[-1]
 
 # If module is due to be loaded, then setup all the magical handlers
 if is_module_loaded(FILENAME):
-    from Database.sql import disable_sql as sql
+    from Mikobot.Database.sql import disable_sql as sql
     from Mikobot.plugins.helper_funcs.chat_status import (
         check_admin,
         connection_status,

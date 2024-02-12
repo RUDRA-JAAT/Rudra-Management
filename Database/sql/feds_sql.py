@@ -4,7 +4,7 @@ import threading
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 from telegram.error import BadRequest, Forbidden
 
-from Database.sql import BASE, SESSION
+from Mikobot.Database.sql import BASE, SESSION
 from Mikobot import dispatcher
 
 
