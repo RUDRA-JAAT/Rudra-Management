@@ -28,7 +28,7 @@ from telegram.helpers import escape_markdown, mention_html, mention_markdown
 import Database.sql.welcome_sql as sql
 from Database.mongodb.toggle_mongo import dwelcome_off, dwelcome_on, is_dwelcome_on
 from Database.sql.global_bans_sql import is_user_gbanned
-from Infamous.temp import temp
+from Mikobot.temps import temp
 from Mikobot import DEV_USERS
 from Mikobot import DEV_USERS as SUDO
 from Mikobot import DRAGONS, EVENT_LOGS, LOGGER, OWNER_ID, app, dispatcher, function

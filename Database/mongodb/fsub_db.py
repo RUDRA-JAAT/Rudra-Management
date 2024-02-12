@@ -1,4 +1,4 @@
-from Infamous.temp import dbname
+from Mikobot.temps import dbname
 
 fsub = dbname.force_sub
 
