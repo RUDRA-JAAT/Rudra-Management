@@ -94,7 +94,7 @@ async def draw_multiple_line_text(image, text, font, text_start_height):
 
 async def welcomepic(pic, user, chat, user_id):
     user = unidecode.unidecode(user)
-    background = Image.open("Extra/bgg.jpg")
+    background = Image.open("Mikobot/Assist/bgg.jpg")
     background = background.resize(
         (background.size[0], background.size[1]), Image.ANTIALIAS
     )
@@ -103,7 +103,7 @@ async def welcomepic(pic, user, chat, user_id):
     pfp_x = 55
     pfp_y = (background.size[1] - pfp.size[1]) // 2 + 38
     draw = ImageDraw.Draw(background)
-    font = ImageFont.truetype("Extra/Calistoga-Regular.ttf", 42)
+    font = ImageFont.truetype("Mikobot/Assist/Calistoga-Regular.ttf", 42)
     text_width, text_height = draw.textsize(f"{user} [{user_id}]", font=font)
     text_x = 20
     text_y = background.height - text_height - 20 - 25
@@ -150,7 +150,7 @@ async def member_has_joined(client, member: ChatMemberUpdated):
                 user.photo.big_file_id, file_name=f"pp{user_id}.png"
             )
         except AttributeError:
-            pic = "Extra/profilepic.png"
+            pic = "Mikobot/Assist/profilepic.png"
         try:
             welcomeimg = await welcomepic(
                 pic, user.first_name, member.chat.title, user_id
