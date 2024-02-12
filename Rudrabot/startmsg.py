@@ -72,7 +72,7 @@ GROUP_START_BTN = [
 ALIVE_BTN = [
     [
         ib(text="UPDATES", url="https://t.me/Hydra_Updates"),
-        ib(text="SUPPORT", url="https://t.me/hydraXsupport"),
+        ib(text="SUPPORT", url="https://t.me/RUDRA_JAAT_BIO"),
     ],
     [
         ib(
