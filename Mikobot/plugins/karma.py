@@ -7,7 +7,7 @@ import asyncio
 
 from pyrogram import filters
 
-from Database.mongodb.karma_mongo import *
+from Mikobot.Database.mongodb.karma_mongo import *
 from Mikobot import OWNER_ID, app
 from Mikobot.utils.can_restrict import can_restrict
 from Mikobot.utils.errors import capture_err

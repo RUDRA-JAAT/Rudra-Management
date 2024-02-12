@@ -26,7 +26,7 @@ from telegram.ext import (
 from telegram.helpers import escape_markdown, mention_html, mention_markdown
 
 import Mikobot.Database.sql.welcome_sql as sql
-from Database.mongodb.toggle_mongo import dwelcome_off, dwelcome_on, is_dwelcome_on
+from Mikobot.Database.mongodb.toggle_mongo import dwelcome_off, dwelcome_on, is_dwelcome_on
 from Mikobot.Database.sql.global_bans_sql import is_user_gbanned
 from Mikobot.temps import temp
 from Mikobot import DEV_USERS

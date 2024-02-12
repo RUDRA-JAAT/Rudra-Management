@@ -1,4 +1,4 @@
-from Database.mongodb.db import *
+from Mikobot.Database.mongodb.db import *
 
 dwelcomedb = dbname.dwelcome
 nsfwdb = dbname.nsfw

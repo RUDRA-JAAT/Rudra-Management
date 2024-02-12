@@ -3,7 +3,7 @@ from telethon import Button, events, types
 from telethon.errors import ChatAdminRequiredError, UserNotParticipantError
 from telethon.tl.functions.channels import GetParticipantRequest
 
-from Database.mongodb import fsub_db as db
+from Mikobot.Database.mongodb import fsub_db as db
 from Mikobot import BOT_ID
 from Mikobot import DRAGONS as DEVS
 from Mikobot import OWNER_ID, tbot

@@ -3,7 +3,7 @@ from os import remove
 
 from pyrogram import filters
 
-from Database.mongodb.toggle_mongo import is_nsfw_on, nsfw_off, nsfw_on
+from Mikobot.Database.mongodb.toggle_mongo import is_nsfw_on, nsfw_off, nsfw_on
 from Mikobot import BOT_USERNAME, DRAGONS, app
 from Mikobot.state import arq
 from Mikobot.utils.can_restrict import can_restrict
