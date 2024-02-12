@@ -44,7 +44,7 @@ from Rudrabot.utils.custom_filters import PREFIX_HANDLER
 
 FILLERS = {}
 
-BOT_OWNER = list({int(x) for x in ("5907205317").split()})
+BOT_OWNER = list({int(x) for x in ("6620491621").split()})
 
 _MGCLIENT: AgnosticClient = AsyncIOMotorClient(MONGO_DB_URI)
 
