@@ -82,7 +82,7 @@ no_pic = [
 ]
 
 
-DOWN_PATH = "Mikobot/downloads/"
+DOWN_PATH = "Rudrabot/downloads/"
 
 AUTH_USERS = get_collection("AUTH_USERS")
 IGNORE = get_collection("IGNORED_USERS")
