@@ -6,7 +6,7 @@ from telethon.errors import ChatAdminRequiredError, UserAdminInvalidError
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChannelParticipantsAdmins, ChatBannedRights
 
-from Mikobot import SUPPORT_STAFF, tbot
+from Rudrabot import SUPPORT_STAFF, tbot
 
 # <=======================================================================================================>
 

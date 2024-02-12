@@ -21,7 +21,7 @@ from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes
 from telegram.helpers import mention_html, mention_markdown
 
 import Rudrabot.Database.sql.feds_sql as sql
-from Mikobot import (
+from Rudrabot import (
     DRAGONS,
     EVENT_LOGS,
     LOGGER,
@@ -1422,10 +1422,10 @@ async def fed_ban_list(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 backups += json.dumps(json_parser)
                 backups += "\n"
             with BytesIO(str.encode(backups)) as output:
-                output.name = "mikobot_fbanned_users.json"
+                output.name = "Rudrabot_fbanned_users.json"
                 await update.effective_message.reply_document(
                     document=output,
-                    filename="mikobot_fbanned_users.json",
+                    filename="Rudrabot_fbanned_users.json",
                     caption="Total {} User are blocked by the Federation {}.".format(
                         len(getfban),
                         info["fname"],
@@ -1469,10 +1469,10 @@ async def fed_ban_list(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 )
                 backups += "\n"
             with BytesIO(str.encode(backups)) as output:
-                output.name = "mikobot_fbanned_users.csv"
+                output.name = "Rudrabot_fbanned_users.csv"
                 await update.effective_message.reply_document(
                     document=output,
-                    filename="mikobot_fbanned_users.csv",
+                    filename="Rudrabot_fbanned_users.csv",
                     caption="Total {} User are blocked by Federation {}.".format(
                         len(getfban),
                         info["fname"],

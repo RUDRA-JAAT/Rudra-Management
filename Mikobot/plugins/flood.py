@@ -15,7 +15,7 @@ from telegram.helpers import mention_html
 
 from Rudrabot.Database.sql import antiflood_sql as sql
 from Rudrabot.Database.sql.approve_sql import is_approved
-from Mikobot import dispatcher, function
+from Rudrabot import dispatcher, function
 from Rudrabot.plugins.connection import connected
 from Rudrabot.plugins.helper_funcs.alternate import send_message
 from Rudrabot.plugins.helper_funcs.chat_status import check_admin, is_user_admin

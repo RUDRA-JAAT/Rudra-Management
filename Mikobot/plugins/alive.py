@@ -13,7 +13,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 from Rudrabot.startmsg import ALIVE_ANIMATION, ALIVE_BTN
-from Mikobot import BOT_NAME, app
+from Rudrabot import BOT_NAME, app
 
 # <=======================================================================================================>
 

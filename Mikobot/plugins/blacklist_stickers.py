@@ -8,7 +8,7 @@ from telegram.ext import CommandHandler, ContextTypes, MessageHandler, filters
 from telegram.helpers import mention_html, mention_markdown
 
 import Rudrabot.Database.sql.blsticker_sql as sql
-from Mikobot import LOGGER, dispatcher
+from Rudrabot import LOGGER, dispatcher
 from Rudrabot.plugins.connection import connected
 from Rudrabot.plugins.disable import DisableAbleCommandHandler
 from Rudrabot.plugins.helper_funcs.alternate import send_message

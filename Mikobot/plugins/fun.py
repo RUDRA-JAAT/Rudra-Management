@@ -7,7 +7,7 @@ from telegram.constants import ParseMode
 from telegram.ext import ContextTypes
 
 import Rudrabot.utils.fun_strings as fun_strings
-from Mikobot import function
+from Rudrabot import function
 from Rudrabot.events import register
 from Rudrabot.plugins.disable import DisableAbleCommandHandler
 from Rudrabot.state import state

@@ -8,7 +8,7 @@ import nekos
 from telethon import events
 
 from Rudrabot.Database.mongodb.toggle_mongo import is_nekomode_on, nekomode_off, nekomode_on
-from Mikobot import tbot
+from Rudrabot import tbot
 from Rudrabot.state import state  # Import the state function
 
 # <=======================================================================================================>

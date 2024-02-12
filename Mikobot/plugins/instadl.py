@@ -6,7 +6,7 @@
 from telegram import Update
 from telegram.ext import CommandHandler, ContextTypes
 
-from Mikobot import function
+from Rudrabot import function
 from Rudrabot.state import state
 
 # <=======================================================================================================>

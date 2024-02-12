@@ -12,7 +12,7 @@ from sqlalchemy import (
 )
 
 from Rudrabot.Database.sql import BASE, SESSION
-from Mikobot import dispatcher
+from Rudrabot import dispatcher
 
 
 class Users(BASE):

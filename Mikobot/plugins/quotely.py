@@ -8,7 +8,7 @@ from PIL import Image
 from telethon.tl import types
 from telethon.utils import get_display_name, get_peer_id
 
-from Mikobot import DEV_USERS
+from Rudrabot import DEV_USERS
 from Rudrabot.events import register
 
 # <=======================================================================================================>

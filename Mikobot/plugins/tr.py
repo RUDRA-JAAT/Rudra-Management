@@ -11,7 +11,7 @@ from telegram import Update
 from telegram.constants import ParseMode
 from telegram.ext import ContextTypes, filters
 
-from Mikobot import LOGGER, function
+from Rudrabot import LOGGER, function
 from Rudrabot.plugins.anime import DEFAULT_SERVICE_URLS, LANGUAGES
 from Rudrabot.plugins.disable import DisableAbleCommandHandler
 from Rudrabot.plugins.helper_funcs.chat_status import check_admin

@@ -2,7 +2,7 @@ from threading import RLock
 from time import time
 
 from Rudrabot.Database.mongodb.mongodb import MongoDB
-from Mikobot import LOGGER
+from Rudrabot import LOGGER
 
 INSERTION_LOCK = RLock()
 

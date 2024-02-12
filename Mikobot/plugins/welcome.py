@@ -29,9 +29,9 @@ import Rudrabot.Database.sql.welcome_sql as sql
 from Rudrabot.Database.mongodb.toggle_mongo import dwelcome_off, dwelcome_on, is_dwelcome_on
 from Rudrabot.Database.sql.global_bans_sql import is_user_gbanned
 from Rudrabot.temps import temp
-from Mikobot import DEV_USERS
-from Mikobot import DEV_USERS as SUDO
-from Mikobot import DRAGONS, EVENT_LOGS, LOGGER, OWNER_ID, app, dispatcher, function
+from Rudrabot import DEV_USERS
+from Rudrabot import DEV_USERS as SUDO
+from Rudrabot import DRAGONS, EVENT_LOGS, LOGGER, OWNER_ID, app, dispatcher, function
 from Rudrabot.plugins.helper_funcs.chat_status import check_admin, is_user_ban_protected
 from Rudrabot.plugins.helper_funcs.misc import build_keyboard, revert_buttons
 from Rudrabot.plugins.helper_funcs.msg_types import get_welcome_type

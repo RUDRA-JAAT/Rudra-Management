@@ -10,7 +10,7 @@ import random
 from pyrogram import Client, filters
 from pyrogram.types import InputMediaPhoto, Message
 
-from Mikobot import app
+from Rudrabot import app
 from Rudrabot.state import state
 
 # <=======================================================================================================>

@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.constants import ParseMode
 from telegram.ext import CommandHandler, ContextTypes
 
-from Mikobot import StartTime, function
+from Rudrabot import StartTime, function
 from Rudrabot.__main__ import get_readable_time
 from Rudrabot.plugins.helper_funcs.chat_status import check_admin
 

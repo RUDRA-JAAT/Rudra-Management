@@ -10,7 +10,7 @@ from telegram.helpers import mention_html
 
 import Rudrabot.Database.sql.blacklist_sql as sql
 from Rudrabot.Database.sql.approve_sql import is_approved
-from Mikobot import LOGGER, dispatcher, function
+from Rudrabot import LOGGER, dispatcher, function
 from Rudrabot.plugins.connection import connected
 from Rudrabot.plugins.disable import DisableAbleCommandHandler
 from Rudrabot.plugins.helper_funcs.alternate import send_message, typing_action

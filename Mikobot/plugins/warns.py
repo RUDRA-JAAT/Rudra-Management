@@ -28,7 +28,7 @@ from telegram.helpers import mention_html
 
 from Rudrabot.Database.sql import warns_sql as sql
 from Rudrabot.Database.sql.approve_sql import is_approved
-from Mikobot import dispatcher, function
+from Rudrabot import dispatcher, function
 from Rudrabot.utils.can_restrict import BAN_STICKER
 from Rudrabot.plugins.disable import DisableAbleCommandHandler
 from Rudrabot.plugins.helper_funcs.chat_status import check_admin, is_user_admin

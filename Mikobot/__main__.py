@@ -38,7 +38,7 @@ from telegram.helpers import escape_markdown
 
 import Rudrabot.Database.sql.users_sql as sql
 from Rudrabot.startmsg import *
-from Mikobot import (
+from Rudrabot import (
     BOT_NAME,
     LOGGER,
     OWNER_ID,
@@ -779,7 +779,7 @@ def main():
 
     dispatcher.add_error_handler(error_callback)
 
-    LOGGER.info("Mikobot is starting >> Using long polling.")
+    LOGGER.info("Rudrabot is starting >> Using long polling.")
     dispatcher.run_polling(timeout=15, drop_pending_updates=True)
 
 

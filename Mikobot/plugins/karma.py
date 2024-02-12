@@ -8,7 +8,7 @@ import asyncio
 from pyrogram import filters
 
 from Rudrabot.Database.mongodb.karma_mongo import *
-from Mikobot import OWNER_ID, app
+from Rudrabot import OWNER_ID, app
 from Rudrabot.utils.can_restrict import can_restrict
 from Rudrabot.utils.errors import capture_err
 

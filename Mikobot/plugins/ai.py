@@ -9,8 +9,8 @@ from telegram import Update
 from telegram.constants import ParseMode
 from telegram.ext import CommandHandler, ContextTypes
 
-from Mikobot import LOGGER as logger
-from Mikobot import function
+from Rudrabot import LOGGER as logger
+from Rudrabot import function
 from Rudrabot.state import state
 
 # <=======================================================================================================>

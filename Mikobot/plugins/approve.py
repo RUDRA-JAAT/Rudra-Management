@@ -8,7 +8,7 @@ from telegram.ext import CallbackQueryHandler, ContextTypes
 from telegram.helpers import mention_html
 
 import Rudrabot.Database.sql.approve_sql as sql
-from Mikobot import DRAGONS, dispatcher
+from Rudrabot import DRAGONS, dispatcher
 from Rudrabot.plugins.disable import DisableAbleCommandHandler
 from Rudrabot.plugins.helper_funcs.chat_status import check_admin
 from Rudrabot.plugins.helper_funcs.extraction import extract_user

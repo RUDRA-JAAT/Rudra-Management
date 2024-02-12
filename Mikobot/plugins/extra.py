@@ -6,7 +6,7 @@ from pyrogram.types import Message
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes
 
-from Mikobot import LOGGER, app, function
+from Rudrabot import LOGGER, app, function
 from Rudrabot.plugins.helper_funcs.chat_status import check_admin
 
 # <=======================================================================================================>

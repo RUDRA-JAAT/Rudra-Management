@@ -6,7 +6,7 @@ from PIL import Image
 from pyrogram import filters
 from telegraph import Telegraph, exceptions, upload_file
 
-from Mikobot import app
+from Rudrabot import app
 from Rudrabot.utils.errors import capture_err
 
 # <=======================================================================================================>

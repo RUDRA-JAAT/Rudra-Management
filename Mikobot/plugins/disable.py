@@ -10,7 +10,7 @@ from telegram.ext import CommandHandler, ContextTypes, MessageHandler
 from telegram.ext import filters as filters_module
 from telegram.helpers import escape_markdown
 
-from Mikobot import function
+from Rudrabot import function
 from Rudrabot.plugins.helper_funcs.misc import is_module_loaded
 from Rudrabot.utils.cmdprefix import CMD_STARTERS
 

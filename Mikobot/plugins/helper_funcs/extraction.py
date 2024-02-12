@@ -5,7 +5,7 @@ from telegram import Message, MessageEntity
 from telegram.error import BadRequest
 from telegram.ext import ContextTypes
 
-from Mikobot import LOGGER
+from Rudrabot import LOGGER
 from Rudrabot.plugins.users import get_user_id
 
 # <=======================================================================================================>

@@ -18,7 +18,7 @@ from telegram.ext import filters as filters_module
 from telegram.helpers import escape_markdown, mention_html
 
 from Rudrabot.Database.sql import cust_filters_sql as sql
-from Mikobot import DEV_USERS, DRAGONS, LOGGER, dispatcher, function
+from Rudrabot import DEV_USERS, DRAGONS, LOGGER, dispatcher, function
 from Rudrabot.plugins.connection import connected
 from Rudrabot.plugins.disable import DisableAbleCommandHandler
 from Rudrabot.plugins.helper_funcs.alternate import send_message, typing_action

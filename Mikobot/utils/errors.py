@@ -5,7 +5,7 @@ from functools import wraps
 
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 
-from Mikobot import OWNER_ID, app
+from Rudrabot import OWNER_ID, app
 
 # <=======================================================================================================>
 

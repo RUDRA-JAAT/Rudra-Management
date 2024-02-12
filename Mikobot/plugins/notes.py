@@ -17,7 +17,7 @@ from telegram.ext import (
 from telegram.helpers import escape_markdown, mention_markdown
 
 import Rudrabot.Database.sql.notes_sql as sql
-from Mikobot import DRAGONS, LOGGER, MESSAGE_DUMP, SUPPORT_CHAT, dispatcher, function
+from Rudrabot import DRAGONS, LOGGER, MESSAGE_DUMP, SUPPORT_CHAT, dispatcher, function
 from Rudrabot.plugins.disable import DisableAbleCommandHandler
 from Rudrabot.plugins.helper_funcs.chat_status import check_admin, connection_status
 from Rudrabot.plugins.helper_funcs.misc import build_keyboard, revert_buttons

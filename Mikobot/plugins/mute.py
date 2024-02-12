@@ -8,7 +8,7 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, ContextTypes
 from telegram.helpers import mention_html
 
-from Mikobot import LOGGER, function
+from Rudrabot import LOGGER, function
 from Rudrabot.plugins.helper_funcs.chat_status import (
     check_admin,
     connection_status,

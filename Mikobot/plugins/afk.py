@@ -9,7 +9,7 @@ from telegram.error import BadRequest
 from telegram.ext import ContextTypes, MessageHandler, filters
 
 from Rudrabot.Database.sql import afk_sql as sql
-from Mikobot import LOGGER, function
+from Rudrabot import LOGGER, function
 from Rudrabot.plugins.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
 from Rudrabot.plugins.users import get_user_id
 

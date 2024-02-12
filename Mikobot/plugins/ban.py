@@ -12,7 +12,7 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes, filters
 from telegram.helpers import mention_html
 
-from Mikobot import DEV_USERS, DRAGONS, LOGGER, OWNER_ID, function
+from Rudrabot import DEV_USERS, DRAGONS, LOGGER, OWNER_ID, function
 from Rudrabot.utils.can_restrict import BAN_STICKER
 from Rudrabot.plugins.disable import DisableAbleCommandHandler
 from Rudrabot.plugins.helper_funcs.chat_status import (

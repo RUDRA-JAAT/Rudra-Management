@@ -12,7 +12,7 @@ from telegram.helpers import mention_html
 
 import Rudrabot.Database.sql.global_bans_sql as sql
 from Rudrabot.Database.sql.users_sql import get_user_com_chats
-from Mikobot import (
+from Rudrabot import (
     DEV_USERS,
     DRAGONS,
     EVENT_LOGS,

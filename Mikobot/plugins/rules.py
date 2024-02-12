@@ -6,7 +6,7 @@ from telegram.ext import CommandHandler, ContextTypes, filters
 from telegram.helpers import escape_markdown
 
 import Rudrabot.Database.sql.rules_sql as sql
-from Mikobot import dispatcher, function
+from Rudrabot import dispatcher, function
 from Rudrabot.plugins.helper_funcs.chat_status import check_admin
 from Rudrabot.plugins.helper_funcs.string_handling import (
     markdown_parser,

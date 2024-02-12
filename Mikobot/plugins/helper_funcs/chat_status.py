@@ -9,7 +9,7 @@ from telegram.constants import ChatMemberStatus, ChatType
 from telegram.error import Forbidden
 from telegram.ext import ContextTypes
 
-from Mikobot import DEL_CMDS, DEV_USERS, DRAGONS, SUPPORT_CHAT, dispatcher
+from Rudrabot import DEL_CMDS, DEV_USERS, DRAGONS, SUPPORT_CHAT, dispatcher
 
 # <=======================================================================================================>
 

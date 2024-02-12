@@ -12,7 +12,7 @@ from telegram.helpers import mention_html
 
 from Rudrabot.Database.sql.approve_sql import is_approved
 from Rudrabot.startmsg import START_IMG
-from Mikobot import DEV_USERS, DRAGONS, INFOPIC, OWNER_ID, function
+from Rudrabot import DEV_USERS, DRAGONS, INFOPIC, OWNER_ID, function
 from Rudrabot.__main__ import STATS, USER_INFO
 from Rudrabot.plugins.helper_funcs.chat_status import support_plus
 from Rudrabot.plugins.users import get_user_id
