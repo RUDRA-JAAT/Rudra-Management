@@ -68,7 +68,7 @@ if ENV:
     EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
     INFOPIC = bool(os.environ.get("INFOPIC", "True"))
     MESSAGE_DUMP = os.environ.get("MESSAGE_DUMP", None)
-    DB_NAME = os.environ.get("DB_NAME", "MikoDB")
+    DB_NAME = os.environ.get("DB_NAME", "RudraDB")
     LOAD = os.environ.get("LOAD", "").split()
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI")
     NO_LOAD = os.environ.get("NO_LOAD", "").split()

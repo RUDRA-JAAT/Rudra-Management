@@ -100,7 +100,7 @@
       "DB_NAME": {
          "description": "Your MongoDB name.",
          "required": true,
-         "value": "MikoDB"
+         "value": "RudraDB"
       },
       "TOKEN": {
          "description": "Bot token obtained from @BotFather on Telegram.",
