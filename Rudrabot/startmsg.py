@@ -1,4 +1,4 @@
-# https://github.com/Infamous-Hydra/YaeMiko
+# https://github.com/RUDRA-JAAT/Rudra-Management
 # https://github.com/Team-ProjectCodeX
 # https://t.me/O_okarma
 
