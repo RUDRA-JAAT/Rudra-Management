@@ -7,16 +7,16 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, ContextTypes, MessageHandler, filters
 from telegram.helpers import mention_html, mention_markdown
 
-import Mikobot.Database.sql.blsticker_sql as sql
+import Rudrabot.Database.sql.blsticker_sql as sql
 from Mikobot import LOGGER, dispatcher
-from Mikobot.plugins.connection import connected
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.alternate import send_message
-from Mikobot.plugins.helper_funcs.chat_status import check_admin, user_not_admin
-from Mikobot.plugins.helper_funcs.misc import split_message
-from Mikobot.plugins.helper_funcs.string_handling import extract_time
-from Mikobot.plugins.log_channel import loggable
-from Mikobot.plugins.warns import warn
+from Rudrabot.plugins.connection import connected
+from Rudrabot.plugins.disable import DisableAbleCommandHandler
+from Rudrabot.plugins.helper_funcs.alternate import send_message
+from Rudrabot.plugins.helper_funcs.chat_status import check_admin, user_not_admin
+from Rudrabot.plugins.helper_funcs.misc import split_message
+from Rudrabot.plugins.helper_funcs.string_handling import extract_time
+from Rudrabot.plugins.log_channel import loggable
+from Rudrabot.plugins.warns import warn
 
 # <=======================================================================================================>
 

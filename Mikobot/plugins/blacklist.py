@@ -8,18 +8,18 @@ from telegram.error import BadRequest
 from telegram.ext import CommandHandler, ContextTypes, MessageHandler, filters
 from telegram.helpers import mention_html
 
-import Mikobot.Database.sql.blacklist_sql as sql
-from Mikobot.Database.sql.approve_sql import is_approved
+import Rudrabot.Database.sql.blacklist_sql as sql
+from Rudrabot.Database.sql.approve_sql import is_approved
 from Mikobot import LOGGER, dispatcher, function
-from Mikobot.plugins.connection import connected
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.alternate import send_message, typing_action
-from Mikobot.plugins.helper_funcs.chat_status import check_admin, user_not_admin
-from Mikobot.plugins.helper_funcs.extraction import extract_text
-from Mikobot.plugins.helper_funcs.misc import split_message
-from Mikobot.plugins.helper_funcs.string_handling import extract_time
-from Mikobot.plugins.log_channel import loggable
-from Mikobot.plugins.warns import warn
+from Rudrabot.plugins.connection import connected
+from Rudrabot.plugins.disable import DisableAbleCommandHandler
+from Rudrabot.plugins.helper_funcs.alternate import send_message, typing_action
+from Rudrabot.plugins.helper_funcs.chat_status import check_admin, user_not_admin
+from Rudrabot.plugins.helper_funcs.extraction import extract_text
+from Rudrabot.plugins.helper_funcs.misc import split_message
+from Rudrabot.plugins.helper_funcs.string_handling import extract_time
+from Rudrabot.plugins.log_channel import loggable
+from Rudrabot.plugins.warns import warn
 
 # <=======================================================================================================>
 

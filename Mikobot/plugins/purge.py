@@ -7,7 +7,7 @@ from pyrogram.errors import MessageDeleteForbidden, RPCError
 from pyrogram.types import Message
 
 from Mikobot import SUPPORT_CHAT, app
-from Mikobot.utils.can_restrict import can_restrict
+from Rudrabot.utils.can_restrict import can_restrict
 
 # <=======================================================================================================>
 

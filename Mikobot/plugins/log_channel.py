@@ -6,7 +6,7 @@ from telegram.constants import ChatType
 from telegram.ext import ContextTypes
 
 from Mikobot import function
-from Mikobot.plugins.helper_funcs.misc import is_module_loaded
+from Rudrabot.plugins.helper_funcs.misc import is_module_loaded
 
 FILENAME = __name__.rsplit(".", 1)[-1]
 
@@ -17,9 +17,9 @@ if is_module_loaded(FILENAME):
     from telegram.ext import CommandHandler, JobQueue
     from telegram.helpers import escape_markdown
 
-    from Mikobot.Database.sql import log_channel_sql as sql
+    from Rudrabot.Database.sql import log_channel_sql as sql
     from Mikobot import EVENT_LOGS, LOGGER, dispatcher
-    from Mikobot.plugins.helper_funcs.chat_status import check_admin
+    from Rudrabot.plugins.helper_funcs.chat_status import check_admin
 
     # <=======================================================================================================>
     # <================================================ FUNCTION =======================================================>

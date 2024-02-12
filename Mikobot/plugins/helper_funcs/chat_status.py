@@ -409,7 +409,7 @@ def connection_status(func):
 
 # <=======================================================================================================>
 # Workaround for circular import with connection.py
-from Mikobot.plugins import connection
+from Rudrabot.plugins import connection
 
 connected = connection.connected
 # <================================================ END =======================================================>

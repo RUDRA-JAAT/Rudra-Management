@@ -1,4 +1,4 @@
-from Mikobot.temps import dbname
+from Rudrabot.temps import dbname
 
 fsub = dbname.force_sub
 

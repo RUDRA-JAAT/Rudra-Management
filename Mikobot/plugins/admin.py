@@ -13,15 +13,15 @@ from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes, fil
 from telegram.helpers import mention_html
 
 from Mikobot import DRAGONS, function
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.alternate import send_message
-from Mikobot.plugins.helper_funcs.chat_status import (
+from Rudrabot.plugins.disable import DisableAbleCommandHandler
+from Rudrabot.plugins.helper_funcs.alternate import send_message
+from Rudrabot.plugins.helper_funcs.chat_status import (
     ADMIN_CACHE,
     check_admin,
     connection_status,
 )
-from Mikobot.plugins.helper_funcs.extraction import extract_user, extract_user_and_text
-from Mikobot.plugins.log_channel import loggable
+from Rudrabot.plugins.helper_funcs.extraction import extract_user, extract_user_and_text
+from Rudrabot.plugins.log_channel import loggable
 
 # <=======================================================================================================>
 

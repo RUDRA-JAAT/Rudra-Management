@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import Column, Integer, String, UnicodeText, distinct, func
 
-from Mikobot.Database.sql import BASE, SESSION
+from Rudrabot.Database.sql import BASE, SESSION
 
 
 class StickersFilters(BASE):

@@ -10,8 +10,8 @@ from telegram.error import TelegramError
 from telegram.ext import CommandHandler, ContextTypes
 
 from Mikobot import DEMONS, DEV_USERS, DRAGONS, LOGGER, OWNER_ID, WOLVES, function
-from Mikobot.plugins.helper_funcs.chat_status import support_plus
-from Mikobot.utils.parser import mention_html
+from Rudrabot.plugins.helper_funcs.chat_status import support_plus
+from Rudrabot.utils.parser import mention_html
 
 # <=======================================================================================================>
 

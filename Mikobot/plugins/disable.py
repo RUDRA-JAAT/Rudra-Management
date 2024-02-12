@@ -11,8 +11,8 @@ from telegram.ext import filters as filters_module
 from telegram.helpers import escape_markdown
 
 from Mikobot import function
-from Mikobot.plugins.helper_funcs.misc import is_module_loaded
-from Mikobot.utils.cmdprefix import CMD_STARTERS
+from Rudrabot.plugins.helper_funcs.misc import is_module_loaded
+from Rudrabot.utils.cmdprefix import CMD_STARTERS
 
 # <=======================================================================================================>
 
@@ -20,8 +20,8 @@ FILENAME = __name__.rsplit(".", 1)[-1]
 
 # If module is due to be loaded, then setup all the magical handlers
 if is_module_loaded(FILENAME):
-    from Mikobot.Database.sql import disable_sql as sql
-    from Mikobot.plugins.helper_funcs.chat_status import (
+    from Rudrabot.Database.sql import disable_sql as sql
+    from Rudrabot.plugins.helper_funcs.chat_status import (
         check_admin,
         connection_status,
         is_user_admin,
@@ -168,7 +168,7 @@ if is_module_loaded(FILENAME):
         args = context.args
         chat = update.effective_chat
         if len(args) >= 1:
-            disable_module = "Mikobot.plugins." + args[0].rsplit(".", 1)[0]
+            disable_module = "Rudrabot.plugins." + args[0].rsplit(".", 1)[0]
 
             try:
                 module = importlib.import_module(disable_module)
@@ -244,7 +244,7 @@ if is_module_loaded(FILENAME):
         chat = update.effective_chat
 
         if len(args) >= 1:
-            enable_module = "Mikobot.plugins." + args[0].rsplit(".", 1)[0]
+            enable_module = "Rudrabot.plugins." + args[0].rsplit(".", 1)[0]
 
             try:
                 module = importlib.import_module(enable_module)

@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText, distinct, func
 
-from Mikobot.Database.sql import BASE, SESSION
-from Mikobot.plugins.helper_funcs.msg_types import Types
+from Rudrabot.Database.sql import BASE, SESSION
+from Rudrabot.plugins.helper_funcs.msg_types import Types
 
 
 class Notes(BASE):

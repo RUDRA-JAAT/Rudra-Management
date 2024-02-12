@@ -7,12 +7,12 @@ from telegram.error import BadRequest
 from telegram.ext import CallbackQueryHandler, ContextTypes
 from telegram.helpers import mention_html
 
-import Mikobot.Database.sql.approve_sql as sql
+import Rudrabot.Database.sql.approve_sql as sql
 from Mikobot import DRAGONS, dispatcher
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.chat_status import check_admin
-from Mikobot.plugins.helper_funcs.extraction import extract_user
-from Mikobot.plugins.log_channel import loggable
+from Rudrabot.plugins.disable import DisableAbleCommandHandler
+from Rudrabot.plugins.helper_funcs.chat_status import check_admin
+from Rudrabot.plugins.helper_funcs.extraction import extract_user
+from Rudrabot.plugins.log_channel import loggable
 
 # <=======================================================================================================>
 

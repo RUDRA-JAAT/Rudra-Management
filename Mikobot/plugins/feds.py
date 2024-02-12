@@ -20,7 +20,7 @@ from telegram.error import BadRequest, Forbidden, TelegramError
 from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes
 from telegram.helpers import mention_html, mention_markdown
 
-import Mikobot.Database.sql.feds_sql as sql
+import Rudrabot.Database.sql.feds_sql as sql
 from Mikobot import (
     DRAGONS,
     EVENT_LOGS,
@@ -30,15 +30,15 @@ from Mikobot import (
     dispatcher,
     function,
 )
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.alternate import send_message
-from Mikobot.plugins.helper_funcs.chat_status import is_user_admin
-from Mikobot.plugins.helper_funcs.extraction import (
+from Rudrabot.plugins.disable import DisableAbleCommandHandler
+from Rudrabot.plugins.helper_funcs.alternate import send_message
+from Rudrabot.plugins.helper_funcs.chat_status import is_user_admin
+from Rudrabot.plugins.helper_funcs.extraction import (
     extract_unt_fedban,
     extract_user,
     extract_user_fban,
 )
-from Mikobot.plugins.helper_funcs.string_handling import markdown_parser
+from Rudrabot.plugins.helper_funcs.string_handling import markdown_parser
 
 # <=======================================================================================================>
 

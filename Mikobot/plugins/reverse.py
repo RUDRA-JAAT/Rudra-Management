@@ -8,7 +8,7 @@ from pyrogram import Client, filters
 from pyrogram import types as t
 
 from Mikobot import app
-from Mikobot.state import state
+from Rudrabot.state import state
 
 from .telegraph import telegraph, upload_file
 

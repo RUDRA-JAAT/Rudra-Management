@@ -13,9 +13,9 @@ from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes, fil
 from telegram.helpers import mention_html
 
 from Mikobot import DEV_USERS, DRAGONS, LOGGER, OWNER_ID, function
-from Mikobot.utils.can_restrict import BAN_STICKER
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.chat_status import (
+from Rudrabot.utils.can_restrict import BAN_STICKER
+from Rudrabot.plugins.disable import DisableAbleCommandHandler
+from Rudrabot.plugins.helper_funcs.chat_status import (
     can_delete,
     check_admin,
     connection_status,
@@ -23,10 +23,10 @@ from Mikobot.plugins.helper_funcs.chat_status import (
     is_user_ban_protected,
     is_user_in_chat,
 )
-from Mikobot.plugins.helper_funcs.extraction import extract_user_and_text
-from Mikobot.plugins.helper_funcs.misc import mention_username
-from Mikobot.plugins.helper_funcs.string_handling import extract_time
-from Mikobot.plugins.log_channel import gloggable, loggable
+from Rudrabot.plugins.helper_funcs.extraction import extract_user_and_text
+from Rudrabot.plugins.helper_funcs.misc import mention_username
+from Rudrabot.plugins.helper_funcs.string_handling import extract_time
+from Rudrabot.plugins.log_channel import gloggable, loggable
 
 # <=======================================================================================================>
 

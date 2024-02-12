@@ -9,14 +9,14 @@ from telegram.ext import CommandHandler, ContextTypes
 from telegram.helpers import mention_html
 
 from Mikobot import LOGGER, function
-from Mikobot.plugins.helper_funcs.chat_status import (
+from Rudrabot.plugins.helper_funcs.chat_status import (
     check_admin,
     connection_status,
     is_user_admin,
 )
-from Mikobot.plugins.helper_funcs.extraction import extract_user, extract_user_and_text
-from Mikobot.plugins.helper_funcs.string_handling import extract_time
-from Mikobot.plugins.log_channel import loggable
+from Rudrabot.plugins.helper_funcs.extraction import extract_user, extract_user_and_text
+from Rudrabot.plugins.helper_funcs.string_handling import extract_time
+from Rudrabot.plugins.log_channel import loggable
 
 # <=======================================================================================================>
 

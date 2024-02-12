@@ -1,4 +1,4 @@
-from Mikobot.Database.mongodb.db import dbname
+from Rudrabot.Database.mongodb.db import dbname
 
 collection = dbname["whisper"]
 

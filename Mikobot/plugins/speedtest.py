@@ -5,8 +5,8 @@ from telegram.constants import ParseMode
 from telegram.ext import CallbackQueryHandler, ContextTypes
 
 from Mikobot import DEV_USERS, function
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.plugins.helper_funcs.chat_status import check_admin
+from Rudrabot.plugins.disable import DisableAbleCommandHandler
+from Rudrabot.plugins.helper_funcs.chat_status import check_admin
 
 # <=======================================================================================================>
 

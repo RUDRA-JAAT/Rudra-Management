@@ -10,8 +10,8 @@ from telegram.error import BadRequest, Forbidden, TelegramError
 from telegram.ext import CommandHandler, ContextTypes, MessageHandler, filters
 from telegram.helpers import mention_html
 
-import Mikobot.Database.sql.global_bans_sql as sql
-from Mikobot.Database.sql.users_sql import get_user_com_chats
+import Rudrabot.Database.sql.global_bans_sql as sql
+from Rudrabot.Database.sql.users_sql import get_user_com_chats
 from Mikobot import (
     DEV_USERS,
     DRAGONS,
@@ -22,13 +22,13 @@ from Mikobot import (
     dispatcher,
     function,
 )
-from Mikobot.plugins.helper_funcs.chat_status import (
+from Rudrabot.plugins.helper_funcs.chat_status import (
     check_admin,
     is_user_admin,
     support_plus,
 )
-from Mikobot.plugins.helper_funcs.extraction import extract_user, extract_user_and_text
-from Mikobot.plugins.helper_funcs.misc import send_to_list
+from Rudrabot.plugins.helper_funcs.extraction import extract_user, extract_user_and_text
+from Rudrabot.plugins.helper_funcs.misc import send_to_list
 
 # <=======================================================================================================>
 

@@ -36,8 +36,8 @@ from telegram.ext import (
 )
 from telegram.helpers import escape_markdown
 
-import Mikobot.Database.sql.users_sql as sql
-from Mikobot.startmsg import *
+import Rudrabot.Database.sql.users_sql as sql
+from Rudrabot.startmsg import *
 from Mikobot import (
     BOT_NAME,
     LOGGER,
@@ -51,9 +51,9 @@ from Mikobot import (
     loop,
     tbot,
 )
-from Mikobot.plugins import ALL_MODULES
-from Mikobot.plugins.helper_funcs.chat_status import is_user_admin
-from Mikobot.plugins.helper_funcs.misc import paginate_modules
+from Rudrabot.plugins import ALL_MODULES
+from Rudrabot.plugins.helper_funcs.chat_status import is_user_admin
+from Rudrabot.plugins.helper_funcs.misc import paginate_modules
 
 # <=======================================================================================================>
 
@@ -159,7 +159,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("Mikobot.plugins." + module_name)
+    imported_module = importlib.import_module("Rudrabot.plugins." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 

@@ -3,11 +3,11 @@ from telethon import Button, events, types
 from telethon.errors import ChatAdminRequiredError, UserNotParticipantError
 from telethon.tl.functions.channels import GetParticipantRequest
 
-from Mikobot.Database.mongodb import fsub_db as db
+from Rudrabot.Database.mongodb import fsub_db as db
 from Mikobot import BOT_ID
 from Mikobot import DRAGONS as DEVS
 from Mikobot import OWNER_ID, tbot
-from Mikobot.events import register
+from Rudrabot.events import register
 
 # <=======================================================================================================>
 

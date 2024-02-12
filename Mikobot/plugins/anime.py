@@ -38,7 +38,7 @@ from pyrogram.types import (
 )
 
 from Mikobot import BOT_USERNAME, MESSAGE_DUMP, MONGO_DB_URI, app
-from Mikobot.utils.custom_filters import PREFIX_HANDLER
+from Rudrabot.utils.custom_filters import PREFIX_HANDLER
 
 # <=======================================================================================================>
 

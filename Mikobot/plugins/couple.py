@@ -4,7 +4,7 @@ from datetime import datetime
 
 from pyrogram import filters
 
-from Mikobot.Database.mongodb.karma_mongo import get_couple, save_couple
+from Rudrabot.Database.mongodb.karma_mongo import get_couple, save_couple
 from Mikobot import app
 
 # <=======================================================================================================>

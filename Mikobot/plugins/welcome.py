@@ -25,19 +25,19 @@ from telegram.ext import (
 )
 from telegram.helpers import escape_markdown, mention_html, mention_markdown
 
-import Mikobot.Database.sql.welcome_sql as sql
-from Mikobot.Database.mongodb.toggle_mongo import dwelcome_off, dwelcome_on, is_dwelcome_on
-from Mikobot.Database.sql.global_bans_sql import is_user_gbanned
-from Mikobot.temps import temp
+import Rudrabot.Database.sql.welcome_sql as sql
+from Rudrabot.Database.mongodb.toggle_mongo import dwelcome_off, dwelcome_on, is_dwelcome_on
+from Rudrabot.Database.sql.global_bans_sql import is_user_gbanned
+from Rudrabot.temps import temp
 from Mikobot import DEV_USERS
 from Mikobot import DEV_USERS as SUDO
 from Mikobot import DRAGONS, EVENT_LOGS, LOGGER, OWNER_ID, app, dispatcher, function
-from Mikobot.plugins.helper_funcs.chat_status import check_admin, is_user_ban_protected
-from Mikobot.plugins.helper_funcs.misc import build_keyboard, revert_buttons
-from Mikobot.plugins.helper_funcs.msg_types import get_welcome_type
-from Mikobot.plugins.helper_funcs.string_handling import escape_invalid_curly_brackets
-from Mikobot.plugins.log_channel import loggable
-from Mikobot.utils.can_restrict import can_restrict
+from Rudrabot.plugins.helper_funcs.chat_status import check_admin, is_user_ban_protected
+from Rudrabot.plugins.helper_funcs.misc import build_keyboard, revert_buttons
+from Rudrabot.plugins.helper_funcs.msg_types import get_welcome_type
+from Rudrabot.plugins.helper_funcs.string_handling import escape_invalid_curly_brackets
+from Rudrabot.plugins.log_channel import loggable
+from Rudrabot.utils.can_restrict import can_restrict
 
 # <=======================================================================================================>
 
@@ -313,7 +313,7 @@ async def new_member(update: Update, context: ContextTypes.DEFAULT_TYPE):
     new_members = update.effective_message.new_chat_members
 
     for new_mem in new_members:
-        if new_mem.id == bot.id and not Mikobot.ALLOW_CHATS:
+        if new_mem.id == bot.id and not Rudrabot.ALLOW_CHATS:
             with suppress(BadRequest):
                 await update.effective_message.reply_text(
                     "Groups are disabled for {}, I'm outta here.".format(bot.first_name)

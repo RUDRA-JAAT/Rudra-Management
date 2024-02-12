@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import BigInteger, Column, String
 
-from Mikobot.Database.sql import BASE, SESSION
+from Rudrabot.Database.sql import BASE, SESSION
 
 
 class Approvals(BASE):

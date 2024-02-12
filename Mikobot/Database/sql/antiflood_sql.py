@@ -2,7 +2,7 @@ import threading
 
 from sqlalchemy import BigInteger, Column, Integer, String, UnicodeText
 
-from Mikobot.Database.sql import BASE, SESSION
+from Rudrabot.Database.sql import BASE, SESSION
 
 DEF_COUNT = 1
 DEF_LIMIT = 0

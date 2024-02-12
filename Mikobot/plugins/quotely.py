@@ -9,7 +9,7 @@ from telethon.tl import types
 from telethon.utils import get_display_name, get_peer_id
 
 from Mikobot import DEV_USERS
-from Mikobot.events import register
+from Rudrabot.events import register
 
 # <=======================================================================================================>
 

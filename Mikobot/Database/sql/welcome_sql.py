@@ -4,8 +4,8 @@ from typing import Union
 
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 
-from Mikobot.Database.sql import BASE, SESSION
-from Mikobot.plugins.helper_funcs.msg_types import Types
+from Rudrabot.Database.sql import BASE, SESSION
+from Rudrabot.plugins.helper_funcs.msg_types import Types
 
 DEFAULT_WELCOME = "Hey {first}, how are you?"
 DEFAULT_GOODBYE = "Nice knowing you!"

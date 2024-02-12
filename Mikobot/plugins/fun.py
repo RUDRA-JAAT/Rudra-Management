@@ -6,11 +6,11 @@ from telegram import Update
 from telegram.constants import ParseMode
 from telegram.ext import ContextTypes
 
-import Mikobot.utils.fun_strings as fun_strings
+import Rudrabot.utils.fun_strings as fun_strings
 from Mikobot import function
-from Mikobot.events import register
-from Mikobot.plugins.disable import DisableAbleCommandHandler
-from Mikobot.state import state
+from Rudrabot.events import register
+from Rudrabot.plugins.disable import DisableAbleCommandHandler
+from Rudrabot.state import state
 
 # <=======================================================================================================>
 

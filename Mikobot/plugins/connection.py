@@ -7,10 +7,10 @@ from telegram.constants import ParseMode
 from telegram.error import BadRequest, Forbidden
 from telegram.ext import CallbackQueryHandler, CommandHandler, ContextTypes
 
-import Mikobot.Database.sql.connection_sql as sql
+import Rudrabot.Database.sql.connection_sql as sql
 from Mikobot import DEV_USERS, DRAGONS, dispatcher, function
-from Mikobot.plugins.helper_funcs import chat_status
-from Mikobot.plugins.helper_funcs.alternate import send_message, typing_action
+from Rudrabot.plugins.helper_funcs import chat_status
+from Rudrabot.plugins.helper_funcs.alternate import send_message, typing_action
 
 # <=======================================================================================================>
 

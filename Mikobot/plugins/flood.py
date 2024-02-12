@@ -13,14 +13,14 @@ from telegram.ext import (
 )
 from telegram.helpers import mention_html
 
-from Mikobot.Database.sql import antiflood_sql as sql
-from Mikobot.Database.sql.approve_sql import is_approved
+from Rudrabot.Database.sql import antiflood_sql as sql
+from Rudrabot.Database.sql.approve_sql import is_approved
 from Mikobot import dispatcher, function
-from Mikobot.plugins.connection import connected
-from Mikobot.plugins.helper_funcs.alternate import send_message
-from Mikobot.plugins.helper_funcs.chat_status import check_admin, is_user_admin
-from Mikobot.plugins.helper_funcs.string_handling import extract_time
-from Mikobot.plugins.log_channel import loggable
+from Rudrabot.plugins.connection import connected
+from Rudrabot.plugins.helper_funcs.alternate import send_message
+from Rudrabot.plugins.helper_funcs.chat_status import check_admin, is_user_admin
+from Rudrabot.plugins.helper_funcs.string_handling import extract_time
+from Rudrabot.plugins.log_channel import loggable
 
 # <=======================================================================================================>
 

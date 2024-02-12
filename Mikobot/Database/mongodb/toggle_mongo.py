@@ -1,4 +1,4 @@
-from Mikobot.Database.mongodb.db import *
+from Rudrabot.Database.mongodb.db import *
 
 dwelcomedb = dbname.dwelcome
 nsfwdb = dbname.nsfw

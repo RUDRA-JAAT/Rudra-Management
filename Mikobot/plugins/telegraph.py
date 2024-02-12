@@ -7,7 +7,7 @@ from pyrogram import filters
 from telegraph import Telegraph, exceptions, upload_file
 
 from Mikobot import app
-from Mikobot.utils.errors import capture_err
+from Rudrabot.utils.errors import capture_err
 
 # <=======================================================================================================>
 
