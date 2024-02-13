@@ -1,7 +1,3 @@
-# https://github.com/RUDRA-JAAT/Rudra-Management
-# https://github.com/Team-ProjectCodeX
-
-# <============================================== IMPORTS =========================================================>
 from aiohttp import ClientSession
 from httpx import AsyncClient, Timeout
 from Python_ARQ import ARQ

@@ -1,7 +1,3 @@
-# https://github.com/RUDRA-JAAT/Rudra-Management
-# https://github.com/Team-ProjectCodeX
-
-# <============================================== IMPORTS =========================================================>
 import asyncio
 import json
 import logging
@@ -18,10 +14,6 @@ from telegram.constants import ParseMode
 from telegram.ext import Application, ApplicationBuilder
 from telethon import TelegramClient, events
 from telethon.sessions import MemorySession
-
-# <=======================================================================================================>
-
-# <================================================= NECESSARY ======================================================>
 StartTime = time.time()
 
 loop = asyncio.get_event_loop()

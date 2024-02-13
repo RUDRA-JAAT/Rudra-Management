@@ -1,7 +1,3 @@
-# https://github.com/RUDRA-JAAT/Rudra-Management
-# https://github.com/Team-ProjectCodeX
-
-# <============================================== IMPORTS =========================================================>
 import asyncio
 import contextlib
 import importlib
